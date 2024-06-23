@@ -1,0 +1,1159 @@
+:root {
+
+--font-size-sm: clamp(0.8rem, 5.03vw + -0.46rem, 3.57rem);
+--font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+--font-size-md: clamp(1.25rem, -1.55vw + 1.64rem, 0.4rem);
+--font-size-lg: clamp(1.56rem, -2.6vw + 2.21rem, 0.13rem);
+--font-size-xl: clamp(1.95rem, -3.47vw + 2.82rem, 0.04rem);
+--font-size-xxl: clamp(2.44rem, -4.41vw + 3.54rem, 0.01rem);
+--font-size-xxxl: clamp(3.05rem, -5.54vw + 4.44rem, 0rem);
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+    
+}
+
+
+.header-nav {
+
+    font-family: fino-sans, sans-serif;
+    font-size: var(--font-size-xxl);
+    font-weight: normal;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    margin: 0;
+    top: 5%;
+    justify-content: center;
+    align-items: center;
+    padding-top: -340px;
+    
+}
+
+a:link {
+
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+a:visited {
+
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+
+nav {
+
+    padding: 0.5rem;
+    margin-top:-40px
+
+    
+}
+
+nav img {
+
+    padding: 0.2rem;
+    
+
+}
+
+
+.nav-left {
+
+    float: left;
+    padding-left: 0.5rem;
+    z-index: 1;
+
+}
+
+.nav-right {
+    
+    float: right;
+    padding-right: 0.5rem;
+    z-index:1 ;
+
+}
+
+.left-pages {
+
+    z-index: 1;
+
+}
+
+.right-pages {
+ 
+    z-index: 1;
+
+}
+
+.nav-box {
+
+    width: 100%;
+    height: 9rem;
+    background-color: #333333;
+    position: relative;
+
+}
+
+.nav-box-purple {
+
+    width: 100%;
+    height: 9rem;
+    background-color: #462C5A;
+    position: relative;
+    background-color: rgba(70, 44, 90, 0.75);
+}
+
+h1 {
+
+    font-family: fino-sans, sans-serif;
+    font-size: var(--font-size-xxxl);
+
+}
+
+h2 {
+
+    font-family: fino-sans, sans-serif;
+    font-size: var(--font-size-xxl);
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+
+
+}
+
+h2 span {
+
+    font-family: 'Philosopher', cursive;
+    font-weight: normal;
+    font-size: 0.5em;
+
+}
+
+h3 {
+    
+    font-size: var(--font-size-xl);
+    
+
+}
+
+h4 {
+    
+    font-size: var(--font-size-base);
+    font-weight: normal;
+    line-height: 
+    font-style: italic;
+    word-wrap: break-word;
+    
+
+}
+
+h5 {
+    
+    font-size: var(--font-size-md);
+
+}
+
+.project-title {
+    
+    letter-spacing: 0.5rem;
+    margin: 0;
+    font-size: 4rem;
+    padding-bottom: 5%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+p {
+    
+    font-size: var(--font-size-lg);
+    word-wrap: break-word;
+
+}
+
+ul {
+
+    font-size: var(--font-size-md);
+    list-style-type: none;
+    padding-left: 0;
+
+
+}
+
+ol {
+
+    font-size: var(--font-size-md);
+
+}
+
+nav ul {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.all-social-links {
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+
+}
+
+.all-page-links {
+
+    
+
+}
+
+.social-links img {
+
+    width: 1.5rem;
+    padding: 0.2 rem;
+    margin-top: 35px;
+
+}
+
+.solid-stroke {
+
+    border: none;
+    border-top: 4px solid #a57df0;
+    width: 100%;
+    margin: 0;
+    
+    
+}
+
+
+.banner {
+
+    height: 95vh;
+    display: flex;
+    object-fit: fill;
+    overflow: hidden;
+
+}
+
+.ani-clouds {
+
+    height: 100vh;
+    margin: auto;
+    
+    position: relative;
+    
+}
+
+.headline {
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.band-header {
+    font-family: fino-sans, sans-serif;
+    font-size: 6.5rem;
+    font-weight: normal;
+    font-style: regular;
+    color: #FFFFFF;
+    opacity: 75%;
+
+}
+
+.tagline {
+    font-family: 'Philosopher', sans-serif;
+    font-style: italic;
+    font-size: var(--font-size-md);
+    opacity: 48%;
+}
+
+.arrow-pointer img {
+
+    opacity: 75%;
+    width: 3.5rem;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.arrow-pointer-up img {
+
+    opacity: 75%;
+    width: 3.5rem;
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+body {
+    
+    font-family: 'Philosopher', cursive;
+    background-color: black;
+    color: #FFFFFF;
+    margin: 0;
+    
+}
+
+
+
+main {
+
+    margin-top: -41px;
+    
+}
+
+
+.mv-background img {
+    background-image: url
+    background-size: cover;
+    display: flex;
+    margin: auto;
+    object-fit: fill;
+    overflow: hidden;
+
+}
+
+.music-video {
+
+    background-image: url("../img/col-bg1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;
+
+}
+
+
+
+
+
+.releases {
+
+    background-image: url("../img/col-bg2.png");
+    background-size: cover;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    height: 100vh;    
+
+}
+
+.arrow-pointer, .arrow-pointer-up {
+
+    transition: filter 0.2s ease-in-out;
+
+}
+
+
+
+.arrow-pointer:hover {
+
+    filter: invert(52%) sepia(24%) saturate(6755%) hue-rotate(237deg) brightness(100%) contrast(103%);
+    
+}
+
+.arrow-pointer-up:hover {
+
+    filter: invert(52%) sepia(24%) saturate(6755%) hue-rotate(237deg) brightness(100%) contrast(103%);
+    
+}
+
+.releases-content {
+
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.releases-content img {
+
+    width: 80%;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.background {
+
+    background-image: url("../img/bw-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 0;
+
+}
+
+.topic-pages {
+
+    background-image: url("../img/bw-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 0;
+
+}
+
+.topic-title {
+
+    padding-left: 5%;
+
+}
+
+.topic-title::first-letter{
+    font-weight: normal;
+    font-size: 8rem;
+}
+
+
+.about-us {
+
+    display: grid;
+    max-width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.about-us p {
+
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 90%;
+
+}
+
+
+
+.about-us img {
+
+    margin: auto;
+    display: block;
+    width: 90%;
+
+}
+
+
+
+.image-release {
+    display: grid;
+    max-width: 100%;
+    margin: auto;
+    
+
+}
+
+.music-container {
+        
+    display: grid;
+    max-width: 85%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.grid-container {
+
+    max-width: 85%;
+    margin: auto;
+
+    
+
+}
+
+
+.music-streamlinks {
+    
+    max-width: 7%;
+    float: right;
+    margin-left: 1rem;
+    
+}
+
+.ul-vertical-spacing {
+
+    display: block;
+
+}
+
+.stream-icon {
+
+    text-align: webkit-match-parent;
+
+}
+
+.album-title p {
+
+    line-height: 0;
+    word-wrap: break-word;
+
+
+}
+
+
+
+
+.seance-music, .sacred-music, .castel-music {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 6rem;
+    
+
+}
+
+
+
+ol {
+
+    font-size: var(--font-size-md);
+
+}
+
+
+
+.credits p {
+
+    max-width: 100%;
+    font-size: 1rem;
+    word-wrap: break-word;
+    
+    
+}
+    
+    
+
+
+.credits {
+
+    margin-bottom: 6rem; /* Decrease space after */
+   
+}
+
+.seance-music-background {
+
+    padding-top: 1%;
+    background-color: rgba(70, 28, 178, 0.25);
+
+}
+
+.sacred-music-background {
+
+    padding-top: 1%;
+    background-color: rgba(199, 173, 80, 0.25);
+
+}
+
+.castel-music-background {
+
+    padding-top: 1%;
+    background-color: rgba(255, 75, 137, 0.2);
+    padding-bottom: 5%;
+
+}
+
+.seance-music {
+
+    display: block;
+    position: relative;
+    margin: auto;
+    max-width: 720px;
+    
+
+}
+
+.sacred-love-spells {
+
+    display: block;
+    position: relative;
+    margin: auto;
+    max-width: 720px;
+
+}
+
+.castel {
+
+    display: block;
+    position: relative;
+    margin: auto;
+    max-width: 720px;
+
+}
+
+
+
+
+
+footer {
+    
+    background-color: #000000;
+    width: 100%;
+    font-size: var(--font-size-sm);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+footer p {
+    
+    font-size: 1rem;
+}
+
+
+
+@media only screen and (min-width: 768px){
+   
+    .header-nav {
+
+
+        top: 20%;
+        
+    }
+
+    .social-links img {
+
+        width: 1.5rem;
+        padding: 0.2rem;
+    
+    }
+
+    .left-pages {
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+        margin-top: -2rem;
+        margin-left: 15%;
+    
+    }
+
+    .right-pages {
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+        margin-top: -2rem;
+        margin-right: 15%;
+    
+    }
+
+    p {
+
+        font-size: var(--font-size-md);
+
+    }
+
+    .embed-video iframe {
+
+        width: 608px;
+        height: 342px;
+
+    }
+
+
+    .releases-content {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 6rem;
+        max-width: 65vh;
+        position: relative;
+       
+    
+    
+    }
+    
+    .releases-content p {
+
+        word-wrap: break-word;
+
+    }
+
+    .releases-content img {
+    
+        width: 100%;
+        display: grid;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    
+    
+    }
+
+    
+    
+    
+    .about-us {
+
+    }
+
+    
+    .about-us img {
+
+    max-width: 90%;
+    
+    }
+    
+    .bw-bandphoto {
+    
+    padding-right: 10%;
+    float: right;
+    padding-bottom: 20%;
+
+    }
+    
+    .about-columns {
+
+    padding-top: 2rem;
+    column-count: 2;
+
+    }
+
+    .about-columns p {
+
+    padding-left: 5%;
+    max-width: 85%;
+
+
+    }
+    
+    .about-columns p:nth-child(-n+3) {
+
+    break-inside: avoid-column;
+
+    }
+
+    
+
+    .live-wrapper {
+        padding-left: 5%;
+        display: flex;
+        width: 90%;
+        column-count: 2;
+        margin-top: -10%;
+        padding-bottom: 10%;
+        
+
+    }
+
+    .live-wrapper img {
+        
+        max-width: 45%;
+
+    }
+
+
+    .live-photo {
+    
+    
+    flex-grow: 1;
+
+    }
+
+    .live-photo img {
+    
+    float: left;
+    margin-right: 2rem;
+
+    }
+
+    .live-text {
+        
+        float: right;
+        position: relative;
+        top: -1rem;
+        flex-grow: 1;
+        
+        
+    
+
+    }
+    
+    .live-text p {
+        
+        padding-left: 5%;
+        max-width: 100%;
+        
+        
+    
+
+    }
+
+    
+
+
+    /*.
+
+    .about-paragraph-text-float {
+
+        overflow: hidden;
+
+    }
+
+
+    .about-paragraph-text-float img {
+
+        width: 50%;
+        float: right;
+        
+
+    }
+
+    .about-paragraph-text-float p {
+
+        margin: 0;
+        
+
+    }
+*/
+
+
+    .project-title {
+    
+        letter-spacing: 0.8rem;
+        margin: 0;
+        padding-left: 0;
+        font-size: 4rem;
+        padding-bottom: 5%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .album-title {
+
+        line-height: 0.5;
+        word-wrap: break-word;
+    
+    }
+
+
+    .music-wrapper {
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+
+    }
+
+
+    
+    .grid-container {
+    
+        max-width: 85%;
+        margin: auto;
+    
+    }
+
+    .image-release {
+    display: grid;
+    max-width: 100%;
+    margin: auto;
+    
+
+    }
+
+    .music-container {
+        
+    display: grid;
+    max-width: 85%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+
+
+    .credits p {
+
+    max-width: 100%;
+    font-size: 1rem;
+    
+    
+    
+    }
+
+
+
+
+    footer p {
+
+        font-size: 0.9rem;
+    }
+
+  }
+
+
+  @media only screen and (min-width: 1025px){
+   
+    .social-links img {
+
+        width: 2.5rem;
+    
+    }
+
+    .header-nav {
+
+
+        font-size: 4rem;
+        margin-top: -1rem;
+        
+    }
+
+    .left-pages {
+        margin-left: 10%;
+        font-size: 2rem;
+        gap: 5rem;
+        margin-left: 15%;
+        margin-top: -4rem;
+    
+    }
+
+    .right-pages {
+
+        margin-right: 10%;
+        font-size: 2rem;
+        gap: 5rem;
+        margin-right: 15%;
+        margin-top: -4rem;
+        
+    
+    }
+
+
+    
+    p {
+
+    font-size: var(--font-size-base);
+
+    }
+
+
+    .band-header {
+
+        font-size: 8rem;
+
+    }
+
+    .tagline {
+
+        font-size: 2rem;
+
+    }
+
+
+    .releases-content {
+
+        max-width: 90vh;
+
+    }
+
+
+    
+    .about-us img {
+
+    max-width: 100%;
+    
+    }
+    
+    .bw-bandphoto {
+    
+    padding-right: 10%;
+    float: right;
+    padding-bottom: 10%;
+
+    }
+    
+    .about-columns {
+
+    padding-top: 2rem;
+
+    padding-bottom: 1rem;
+
+    }
+
+    .about-columns p {
+
+    padding-left: 10%;
+    max-width: 100%;
+    
+    
+
+
+    }
+    
+    .about-columns p:nth-child(-n+3) {
+
+    break-inside: avoid-column;
+
+    }
+
+    
+
+    .live-wrapper {
+        
+        padding-left: 5%;
+        display: flex;
+        width: 90%;
+        column-count: 1;
+        margin-top: -15rem;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        
+
+    }
+
+    .live-wrapper img {
+
+        padding-top: -20rem;
+        max-width: 45%;
+
+    }
+
+
+    .live-photo {
+    
+    flex-grow: 1;
+
+    }
+
+    .live-photo img {
+    
+    float: left;
+    margin-right: 2rem;
+
+    }
+
+    .live-text {
+        
+        float: right;
+        flex-grow: 1;
+        
+        
+    
+
+    }
+    
+    .live-text p {
+        
+        padding-left: 10%;
+        max-width: 100%;
+        
+        
+    
+
+    }
+
+
+
+
+
+    .seance-1, .seance-2, .seance-3, .seance-4, .sls-1, .sls-2, .castel-1, .castel-2, .castel-3, .castel-4 {
+
+        
+        width: 200%;
+        margin: 0;
+        
+    }
+
+    .project-title {
+    
+        letter-spacing: 0.8rem;
+        margin: 0;
+        padding-left: 0;
+        font-size: 5rem;
+        padding-bottom: 5%;
+        width: 150%;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .album-title {
+
+        line-height: 1;
+        word-wrap: break-word;
+    
+    }
+
+    
+    .music-wrapper {
+
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 12rem;
+        max-width: 100%;
+        justify-content: center;
+        padding: 0;
+        
+        
+        
+
+    }
+
+
+    .image-release {
+
+        max-width: 100%;
+
+    }
+
+    .music-container {
+
+        margin: auto;
+
+    }
+   
+    .credits p {
+
+        max-width: 100%;
+        font-size: 1rem;
+        word-wrap: break-word;
+        
+        
+    }
+
+
+
+  }
